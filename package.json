@@ -1,0 +1,21 @@
+{
+  "name": "npm-webpack-test",
+  "version": "1.0.0",
+  "description": "fuck web dev",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-serve": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-serve --open",
+    "release": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
